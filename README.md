@@ -36,7 +36,8 @@ In this task, a basic TF2 pipeline was implemented using the turtlesim simulator
 ### Outcome
 - Successful broadcasting of transforms between turtles  
 - The follower turtle tracked the leader turtle using TF-based relative positioning  
-- TF tree correctness verified using `tf2_tools view_frames`  
+- TF tree correctness verified using `tf2_tools view_frames`
+### Video: https://youtu.be/RvHSjfnX1Yo 
 
 ## Task 2: TurtleBot4 Gazebo Simulation
 ### Description
@@ -74,7 +75,8 @@ Keyboard teleoperation was enabled to manually control the TurtleBot4 within the
 
 ### Outcome
 - TurtleBot4 responded correctly to keyboard input  
-- Linear and angular motions executed as expected  
+- Linear and angular motions executed as expected
+### Video: https://youtu.be/aIy_oS6VGCI 
 
 ## Task 4: TF Tree Visualization
 ### Description
