@@ -1,14 +1,14 @@
-# RAS 598 – Mobile Robotics — Lab 2: TF, TurtleBot4 Simulation, and Sensor Frame Analysis
+# 🤖 RAS 598 – Mobile Robotics — Lab 2: TF, TurtleBot4 Simulation, and Sensor Frame Analysis
 
 **Course:** RAS 598 – Mobile Robotics  
 **Lab:** Lab 2  
 **Platform:** ROS 2 Jazzy  
 **Simulation:** Gazebo (TurtleBot4)
 
-## Objective
+## 🎯 Objective
 The objective of this lab is to gain hands-on experience with ROS 2 coordinate transforms (TF2), simulation using Gazebo, and frame analysis on the TurtleBot4 platform. The lab focuses on understanding how spatial relationships between robot components are represented using TF, how these transforms are visualized, and how sensor offsets relative to the robot’s center frame can be computed using ROS 2 tools.
 
-## Software and Tools Used
+## 🧰 Software and Tools Used
 - ROS 2 Jazzy  
 - Gazebo Simulator  
 - TurtleBot4 Simulation  
@@ -17,7 +17,7 @@ The objective of this lab is to gain hands-on experience with ROS 2 coordinate t
 - Python (`rclpy`)  
 - GitHub for version control  
 
-## Task 1: TF with Turtlesim
+## 🐢 Task 1: TF with Turtlesim
 ### Description
 In this task, a basic TF2 pipeline was implemented using the turtlesim simulator. Two turtles were spawned: one turtle was manually controlled using keyboard teleoperation, and the second turtle followed the first using TF transforms.
 
@@ -37,9 +37,11 @@ In this task, a basic TF2 pipeline was implemented using the turtlesim simulator
 - Successful broadcasting of transforms between turtles  
 - The follower turtle tracked the leader turtle using TF-based relative positioning  
 - TF tree correctness verified using `tf2_tools view_frames`
-### Video: https://youtu.be/RvHSjfnX1Yo 
 
-## Task 2: TurtleBot4 Gazebo Simulation
+### Video
+https://youtu.be/RvHSjfnX1Yo  
+
+## 🤖 Task 2: TurtleBot4 Gazebo Simulation
 ### Description
 The TurtleBot4 Gazebo simulation was launched using the provided `ras598_sim` package. The robot was initialized, undocked, and prepared for user control.
 
@@ -60,7 +62,7 @@ The TurtleBot4 Gazebo simulation was launched using the provided `ras598_sim` pa
 - Robot undocked and ready to receive velocity commands  
 - Gazebo visualization rendered correctly without instability  
 
-## Task 3: Keyboard Teleoperation of TurtleBot4
+## 🎮 Task 3: Keyboard Teleoperation of TurtleBot4
 ### Description
 Keyboard teleoperation was enabled to manually control the TurtleBot4 within the Gazebo simulation using velocity commands.
 
@@ -76,9 +78,11 @@ Keyboard teleoperation was enabled to manually control the TurtleBot4 within the
 ### Outcome
 - TurtleBot4 responded correctly to keyboard input  
 - Linear and angular motions executed as expected
-### Video: https://youtu.be/aIy_oS6VGCI 
 
-## Task 4: TF Tree Visualization
+### Video
+https://youtu.be/aIy_oS6VGCI  
+
+## 🌳 Task 4: TF Tree Visualization
 ### Description
 The complete TF tree of the TurtleBot4 system was visualized to analyze the hierarchical relationships between robot and sensor frames.
 
@@ -96,7 +100,7 @@ The complete TF tree of the TurtleBot4 system was visualized to analyze the hier
 - Parent–child relationships between frames verified  
 - Sensor frames, including the OAK-D Lite camera, identified  
 
-## Task 5: Camera Offset from Robot Center of Mass
+## 📷 Task 5: Camera Offset from Robot Center of Mass
 ### Description
 The spatial offset of the OAK-D Lite camera relative to the robot’s base frame (`base_link`) was computed using TF2 tools.
 
@@ -113,6 +117,6 @@ The spatial offset of the OAK-D Lite camera relative to the robot’s base frame
 - Translation values (x, y, z) obtained in meters  
 - Camera placement confirmed to be offset from the robot’s center of mass  
 
-## Conclusion
+## 🏁 Conclusion
 This lab provided comprehensive exposure to TF2, Gazebo-based simulation, and sensor frame analysis in ROS 2. The tasks reinforced the importance of coordinate transforms in mobile robot perception, control, and navigation, forming a strong foundation for future work in autonomous robotics.
-
+``
