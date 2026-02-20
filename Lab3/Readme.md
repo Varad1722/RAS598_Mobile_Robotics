@@ -12,6 +12,7 @@
 
 The objective of this lab is to transition from simulation to real hardware by configuring a Virtual Machine (VM) to communicate with a physical TurtleBot4 using a FastDDS Discovery Server. The lab focuses on verifying ROS 2 communication, visualizing real-time sensor data in RViz2, inspecting velocity commands, and implementing a custom Python node to drive the robot in a geometric path using odometry feedback.
 
+Final Video : https://youtu.be/4Sxe1LOPzZc
 ---
 
 ## 🧰 Software and Tools Used
